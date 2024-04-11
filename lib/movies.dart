@@ -10,6 +10,7 @@ class Movies extends StatelessWidget {
       appBar: AppBar(
         title:
             Text("Movies Yizzia Monge", style: TextStyle(color: Colors.white)),
+        iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: Color(0xff000000),
       ),
       drawer: DrawerMenu(),

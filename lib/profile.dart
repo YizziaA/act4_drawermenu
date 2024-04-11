@@ -10,6 +10,7 @@ class Profile extends StatelessWidget {
       appBar: AppBar(
         title:
             Text("Profile Yizzia Monge", style: TextStyle(color: Colors.white)),
+        iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: Color(0xff000000),
       ),
       drawer: DrawerMenu(),

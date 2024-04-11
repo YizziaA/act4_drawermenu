@@ -10,6 +10,7 @@ class Contact extends StatelessWidget {
       appBar: AppBar(
         title:
             Text("Contact Yizzia Monge", style: TextStyle(color: Colors.white)),
+        iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: Color(0xff000000),
       ),
       drawer: DrawerMenu(),
